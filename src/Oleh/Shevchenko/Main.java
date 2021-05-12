@@ -23,8 +23,9 @@ public class Main {
                 firstElement = middleElement + 1;
             } else if (arr[middleElement] > searchElement) {
                 lastElement = middleElement - 1;
-            } else
+            } else {
                 return middleElement;
+            }
         }
         return -1;
     }
